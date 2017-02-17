@@ -1,0 +1,168 @@
+[2017-02-17 06:01:16] Error: exception 'Sitecake\Exception\Http\UnauthorizedException' with message '401 Unauthorized : Unauthorized access' in /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php:69
+Stack trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+[2017-02-17 06:01:16] Error: [Sitecake\Exception\Http\UnauthorizedException] 401 Unauthorized : Unauthorized access
+Stack Trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+
+
+[2017-02-17 06:01:17] Error: exception 'Sitecake\Exception\Http\UnauthorizedException' with message '401 Unauthorized : Unauthorized access' in /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php:69
+Stack trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+[2017-02-17 06:01:17] Error: [Sitecake\Exception\Http\UnauthorizedException] 401 Unauthorized : Unauthorized access
+Stack Trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+
+
+[2017-02-17 06:01:41] Error: exception 'Sitecake\Exception\Http\UnauthorizedException' with message '401 Unauthorized : Unauthorized access' in /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php:69
+Stack trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+[2017-02-17 06:01:41] Error: [Sitecake\Exception\Http\UnauthorizedException] 401 Unauthorized : Unauthorized access
+Stack Trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+
+
+[2017-02-17 06:01:56] Error: exception 'Sitecake\Exception\Http\UnauthorizedException' with message '401 Unauthorized : Unauthorized access' in /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php:69
+Stack trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+[2017-02-17 06:01:56] Error: [Sitecake\Exception\Http\UnauthorizedException] 401 Unauthorized : Unauthorized access
+Stack Trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+
+
+[2017-02-17 06:02:12] Error: exception 'Sitecake\Exception\Http\UnauthorizedException' with message '401 Unauthorized : Unauthorized access' in /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php:69
+Stack trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+[2017-02-17 06:02:12] Error: [Sitecake\Exception\Http\UnauthorizedException] 401 Unauthorized : Unauthorized access
+Stack Trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+
+
+[2017-02-17 06:02:32] Error: exception 'Sitecake\Exception\Http\UnauthorizedException' with message '401 Unauthorized : Unauthorized access' in /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php:69
+Stack trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+[2017-02-17 06:02:32] Error: [Sitecake\Exception\Http\UnauthorizedException] 401 Unauthorized : Unauthorized access
+Stack Trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+
+
+[2017-02-17 06:02:52] Error: exception 'Sitecake\Exception\Http\UnauthorizedException' with message '401 Unauthorized : Unauthorized access' in /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php:69
+Stack trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+[2017-02-17 06:02:52] Error: [Sitecake\Exception\Http\UnauthorizedException] 401 Unauthorized : Unauthorized access
+Stack Trace:
+#0 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/Sitecake/Dispatcher.php(43): Sitecake\Dispatcher->execute(Object(Sitecake\Services\Session\SessionService), 'alive', Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(16): Sitecake\Dispatcher->dispatch(Object(Symfony\Component\HttpFoundation\Request))
+#2 [internal function]: {closure}(Object(Silex\Application), Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(153): call_user_func_array(Object(Closure), Array)
+#4 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/symfony/http-kernel/HttpKernel.php(68): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(496): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/vendor/silex/silex/src/Silex/Application.php(477): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 /home/a/aivper8c/aivper8c.beget.tech/public_html/sitecake/2.3.6/src/app.php(43): Silex\Application->run()
+#8 {main}
+
+
